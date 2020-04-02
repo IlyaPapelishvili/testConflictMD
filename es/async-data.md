@@ -30,7 +30,7 @@ Se llama a `asyncData` cada vez antes de cargar el componente de **página** .
 Se llamará del lado del servidor una vez (en la primera solicitud a la aplicación Nuxt) y del lado del cliente cuando navegue a otras rutas.
 Este método recibe [el contexto](/api/context) como primer argumento, puede usarlo para obtener algunos datos y Nuxt.js lo fusionará con los datos del componente.
 
-Nuxt.js will automatically merge the returned object with the component data.
+Nuxt.js fusionará automáticamente el objeto devuelto con los datos del componente.
 
 <div class="Alert Alert--orange">
 </div>
